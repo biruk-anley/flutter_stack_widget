@@ -69,13 +69,36 @@ class _PageTwoState extends State<PageTwo> {
                                     ),
                                   ),
 
+                              
+
                           ],
-                        )
+                        ),
+                        
+                        
                        
                       
                     ],
-                  )
                   ),
+                  
+                  ),
+            ),
+            Positioned(
+              top: 280,
+              left: 140,
+              child: Container(
+                  decoration: BoxDecoration(
+                      border: Border.all(color: Colors.black, width: 1),
+                      color: Color.fromARGB(159, 18, 18, 25)),
+                  child: Padding(
+                    padding: EdgeInsets.all(5),
+                    child: Text(
+                      "Kibur Buruk",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Color.fromARGB(255, 218, 213, 213),
+                      ),
+                    ),
+                  )),
             )
           ],
         ),
